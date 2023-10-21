@@ -1,0 +1,51 @@
+body,
+        h1,
+        h2,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #086b72;
+            color: #000000be;
+        }
+
+        #container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #08373c5b;
+            box-shadow: 0 0 20px rgba(54, 143, 115, 0.461);
+        }
+
+        #inputNome {
+            width: 97.6%;
+            padding: 10px;
+            margin-bottom: 7px;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        ul#listaNomes {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        ul#listaNomes li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f7f2f2;
+            border: 1px solid #e7e6e6;
+            border-radius: 5px;
+        }
+
+        ul#listaNomes li b {
+            font-weight: bolder;
+            color: #9b098c;
+        }
